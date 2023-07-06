@@ -37,7 +37,7 @@
 
 .header__logo {
   grid-column-start: 2;
-  margin-left: 115px;
+  margin-left: 62px;
 }
 
 .header__logo-image {
@@ -47,7 +47,7 @@
 .header__address {
   grid-column-start: 3;
   justify-self: center;
-  margin-left: 110px;
+  margin-left: 27px;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
@@ -65,7 +65,6 @@
   background-image: url(../images/cover.jpg);
   background-repeat: no-repeat;
   background-size: 1440px 757px;
-  background-size: cover;
 }
 
 .overlay {
@@ -202,7 +201,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: flex-start;
-  width: 450px;
+  width: 430px;
   height: 450px;
   padding-bottom: 10px;
 }
