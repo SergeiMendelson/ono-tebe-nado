@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
-  margin-top: 94px;
+  margin-top: 92px;
 }
 
 .header__menu-list {
@@ -165,7 +165,7 @@
 
 .lots__heading {
   margin-bottom: 27px;
-  margin-left: 90px;
+  padding-left: 88px;
   color: #000;
   font-weight: 700;
   font-size: 40px;
@@ -174,13 +174,16 @@
 
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
-  margin: 0 50px 26px;
+  margin: 0 50px 31px;
   list-style: none;
 }
 
 .lots__card-list-item {
   flex: 1;
+  min-width: 430px;
+  min-height: 450px;
 }
 
 .card {
@@ -188,10 +191,17 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  color: white;
+  height: 100%;
+  min-height: 450px;
+  padding: 50px 40px;
+  color: #fff;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .card-link {
+  display: block;
+  height: 100%;
   text-decoration: none;
 }
 
@@ -200,26 +210,20 @@ a.card-link:hover {
 }
 
 .card_type_film {
-  height: 100%;
   background-image: url(../images/card-lot-01.jpg);
-  background-size: cover;
 }
 
 .card_type_book {
-  height: 100%;
   background-image: url(../images/card-lot-02.jpg);
-  background-size: cover;
 }
 
 .card_type_picture {
-  height: 100%;
   background-image: url(../images/card-lot-03.jpg);
-  background-size: cover;
 }
 
 .card__title {
+  position: relative;
   z-index: 1;
-  padding: 54px 40px 30px 40px;
   color: #fff;
   font-weight: 700;
   font-size: 22px;
@@ -229,8 +233,8 @@ a.card-link:hover {
 }
 
 .card__text {
+  position: relative;
   z-index: 1;
-  padding: 3px 40px 50px 40px;
   color: #fff;
   font-weight: 400;
   font-size: 20px;
@@ -243,7 +247,7 @@ a.card-link:hover {
   font-weight: 400;
   font-size: 20px;
   line-height: normal;
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .about {
@@ -299,8 +303,8 @@ a.card-link:hover {
   display: grid;
   grid-template-columns: repeat(3, 3fr);
   justify-content: space-between;
-  margin-top: 179px;
-  margin-bottom: 88px;
+  margin-top: 182px;
+  margin-bottom: 85px;
 }
 
 .footer__address {
